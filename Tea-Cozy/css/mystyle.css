@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+/*--Header Section--*/
+header{
+    width: 100%;
+    height: 69px;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0px;
+    z-index: 1;
+}
+
+header img{
+    height: 50px;
+    margin-left: 10px;
+}
+
+header nav a{
+    color: seashell;
+    margin-right: 10px;
+}
+
+/*--Mission Section--*/
+.mission{
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+    max-width: 1200px;
+    height: 700px;
+    margin: 70px auto;
+    display: flex;
+
+}
+
+.mission-wrapper{
+    width: 100%;
+    background-color: black;
+    margin: auto;
+}
+
+.header-bg{
+    padding-top: 10px;
+    padding-bottom: 10px; 
+}
+
+/*--Tea Section--*/
+.tea{
+    width: 1000px;
+    margin: 70px auto;
+    line-height: 50px;
+}
+
+.gallery-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+figure img{
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+}
+
+/*--Location Section--*/
+.location{
+    width: 1200px;
+    height: 500px;
+    margin: auto;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+}
+
+.location-wrapper{
+    width: 980px;
+    margin: auto;
+   position: relative;
+   top: 30px;
+   
+}
+
+.locations{
+    display: flex;
+    justify-content: space-between; 
+    align-content: center;
+    margin-top: 15px;
+}
+
+.bg-black{
+    width: 300px;
+    background-color: black;
+    padding: 30px;
+    line-height: 32px;
+}
+
+/*--Contact Section--*/
+.contact{
+    height: 200px;
+}
+
+#copyright{
+    text-align: left;
+    padding-left: 20px;
+}
+
+
+
+.mission-header{
+    margin: 70px auto;
+}
