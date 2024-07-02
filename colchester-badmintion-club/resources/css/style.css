@@ -56,7 +56,7 @@ nav button{
 .banner{
     height: 500px;
     width: 100%;
-    background-image: url('/resources/images/badmintion_header.jpg');
+    background-image: url('../images/badmintion_header.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
